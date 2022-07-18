@@ -1,0 +1,359 @@
+(pcb /Users/tibi/Documents/µ512_c64/micronix/micronix_ram_board/micronix_ram_board.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(6.0.2-0)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  90000 -190000  20000 -190000  20000 -90000  90000 -90000
+            90000 -190000)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical
+      (place RAM_BOARD_CONN1 22725.000000 -117950.000000 front 0.000000 (PN Conn_02x16_Odd_Even))
+    )
+    (component "MC74HC139ADR2G:SOIC127P600X175-16N"
+      (place RAM_LOGIC1 55000.000000 -175000.000000 front 90.000000 (PN MC74HC139ADR2G))
+    )
+    (component "Package_DIP:DIP-28_W15.24mm"
+      (place RAM_BANK3 72500.000000 -151375.000000 front -90.000000 (PN D43256C))
+      (place RAM_BANK2 72500.000000 -132375.000000 front -90.000000 (PN D43256C))
+      (place RAM_BANK1 72500.000000 -113375.000000 front -90.000000 (PN D43256C))
+      (place RAM_BANK0 72500.000000 -94375.000000 front -90.000000 (PN D43256C))
+    )
+  )
+  (library
+    (image Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical
+      (outline (path signal 120  -1330 -1270  1270 -1270))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  3870 1330  3870 -39430))
+      (outline (path signal 120  -1330 -39430  3870 -39430))
+      (outline (path signal 120  1270 -1270  1270 1330))
+      (outline (path signal 120  -1330 -1270  -1330 -39430))
+      (outline (path signal 120  1270 1330  3870 1330))
+      (outline (path signal 50  -1800 -39900  4350 -39900))
+      (outline (path signal 50  -1800 1800  -1800 -39900))
+      (outline (path signal 50  4350 -39900  4350 1800))
+      (outline (path signal 50  4350 1800  -1800 1800))
+      (outline (path signal 100  -1270 -39370  -1270 0))
+      (outline (path signal 100  -1270 0  0 1270))
+      (outline (path signal 100  0 1270  3810 1270))
+      (outline (path signal 100  3810 -39370  -1270 -39370))
+      (outline (path signal 100  3810 1270  3810 -39370))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 2540 0)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 4 2540 -2540)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 6 2540 -5080)
+      (pin Oval[A]Pad_1700x1700_um 7 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 8 2540 -7620)
+      (pin Oval[A]Pad_1700x1700_um 9 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 10 2540 -10160)
+      (pin Oval[A]Pad_1700x1700_um 11 0 -12700)
+      (pin Oval[A]Pad_1700x1700_um 12 2540 -12700)
+      (pin Oval[A]Pad_1700x1700_um 13 0 -15240)
+      (pin Oval[A]Pad_1700x1700_um 14 2540 -15240)
+      (pin Oval[A]Pad_1700x1700_um 15 0 -17780)
+      (pin Oval[A]Pad_1700x1700_um 16 2540 -17780)
+      (pin Oval[A]Pad_1700x1700_um 17 0 -20320)
+      (pin Oval[A]Pad_1700x1700_um 18 2540 -20320)
+      (pin Oval[A]Pad_1700x1700_um 19 0 -22860)
+      (pin Oval[A]Pad_1700x1700_um 20 2540 -22860)
+      (pin Oval[A]Pad_1700x1700_um 21 0 -25400)
+      (pin Oval[A]Pad_1700x1700_um 22 2540 -25400)
+      (pin Oval[A]Pad_1700x1700_um 23 0 -27940)
+      (pin Oval[A]Pad_1700x1700_um 24 2540 -27940)
+      (pin Oval[A]Pad_1700x1700_um 25 0 -30480)
+      (pin Oval[A]Pad_1700x1700_um 26 2540 -30480)
+      (pin Oval[A]Pad_1700x1700_um 27 0 -33020)
+      (pin Oval[A]Pad_1700x1700_um 28 2540 -33020)
+      (pin Oval[A]Pad_1700x1700_um 29 0 -35560)
+      (pin Oval[A]Pad_1700x1700_um 30 2540 -35560)
+      (pin Oval[A]Pad_1700x1700_um 31 0 -38100)
+      (pin Oval[A]Pad_1700x1700_um 32 2540 -38100)
+    )
+    (image "MC74HC139ADR2G:SOIC127P600X175-16N"
+      (outline (path signal 200  -4330 5035  -4345.88 4980.94  -4388.46 4944.04  -4444.23 4936.02
+            -4495.49 4959.43  -4525.95 5006.83  -4525.95 5063.17  -4495.49 5110.57
+            -4444.23 5133.98  -4388.46 5125.96  -4345.88 5089.06  -4330 5035))
+      (outline (path signal 200  -4330 5035  -4345.88 4980.94  -4388.46 4944.04  -4444.23 4936.02
+            -4495.49 4959.43  -4525.95 5006.83  -4525.95 5063.17  -4495.49 5110.57
+            -4444.23 5133.98  -4388.46 5125.96  -4345.88 5089.06  -4330 5035))
+      (outline (path signal 127  -2000 5000  2000 5000))
+      (outline (path signal 127  -2000 -5000  2000 -5000))
+      (outline (path signal 127  -2000 5060  2000 5060))
+      (outline (path signal 127  -2000 -5060  2000 -5060))
+      (outline (path signal 127  -2000 5000  -2000 -5000))
+      (outline (path signal 127  2000 5000  2000 -5000))
+      (outline (path signal 50  -3705 5250  3705 5250))
+      (outline (path signal 50  -3705 -5250  3705 -5250))
+      (outline (path signal 50  -3705 5250  -3705 -5250))
+      (outline (path signal 50  3705 5250  3705 -5250))
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 1 -2480 4445)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 2 -2480 3175)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 3 -2480 1905)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 4 -2480 635)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 5 -2480 -635)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 6 -2480 -1905)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 7 -2480 -3175)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 8 -2480 -4445)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 9 2480 -4445)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 10 2480 -3175)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 11 2480 -1905)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 12 2480 -635)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 13 2480 635)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 14 2480 1905)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 15 2480 3175)
+      (pin RoundRect[T]Pad_1950x590_41.457_um_0.000000_0 16 2480 4445)
+    )
+    (image "Package_DIP:DIP-28_W15.24mm"
+      (outline (path signal 120  1160 1330  1160 -34350))
+      (outline (path signal 120  14080 1330  8620 1330))
+      (outline (path signal 120  1160 -34350  14080 -34350))
+      (outline (path signal 120  14080 -34350  14080 1330))
+      (outline (path signal 120  6620 1330  1160 1330))
+      (outline (path signal 0  7662.43 2372.43  7680 2330  7662.43 2287.57  7620 2270  7436.61 2251.94
+            7260.28 2198.45  7097.76 2111.58  6955.32 1994.68  6838.42 1852.24
+            6751.55 1689.72  6698.06 1513.38  6680 1330  6698.06 1146.62
+            6751.55 970.278  6838.42 807.764  6955.32 665.32  7097.76 548.419
+            7260.28 461.553  7436.61 408.062  7620 390  7662.43 372.426
+            7680 330  7662.43 287.574  7620 270  7425.23 288.049  7237.08 341.579
+            7061.98 428.77  6905.88 546.651  6774.1 691.207  6671.13 857.517
+            6600.47 1039.92  6564.52 1232.2  6564.52 1427.8  6600.47 1620.08
+            6671.13 1802.48  6774.1 1968.79  6905.88 2113.35  7061.98 2231.23
+            7237.08 2318.42  7425.23 2371.95  7620 2390))
+      (outline (path signal 50  -1050 -34550  16300 -34550))
+      (outline (path signal 50  -1050 1550  -1050 -34550))
+      (outline (path signal 50  16300 -34550  16300 1550))
+      (outline (path signal 50  16300 1550  -1050 1550))
+      (outline (path signal 100  14985 1270  14985 -34290))
+      (outline (path signal 100  14985 -34290  255 -34290))
+      (outline (path signal 100  255 -34290  255 270))
+      (outline (path signal 100  255 270  1255 1270))
+      (outline (path signal 100  1255 1270  14985 1270))
+      (pin Rect[A]Pad_1600x1600_um 1 0 0)
+      (pin Oval[A]Pad_1600x1600_um 2 0 -2540)
+      (pin Oval[A]Pad_1600x1600_um 3 0 -5080)
+      (pin Oval[A]Pad_1600x1600_um 4 0 -7620)
+      (pin Oval[A]Pad_1600x1600_um 5 0 -10160)
+      (pin Oval[A]Pad_1600x1600_um 6 0 -12700)
+      (pin Oval[A]Pad_1600x1600_um 7 0 -15240)
+      (pin Oval[A]Pad_1600x1600_um 8 0 -17780)
+      (pin Oval[A]Pad_1600x1600_um 9 0 -20320)
+      (pin Oval[A]Pad_1600x1600_um 10 0 -22860)
+      (pin Oval[A]Pad_1600x1600_um 11 0 -25400)
+      (pin Oval[A]Pad_1600x1600_um 12 0 -27940)
+      (pin Oval[A]Pad_1600x1600_um 13 0 -30480)
+      (pin Oval[A]Pad_1600x1600_um 14 0 -33020)
+      (pin Oval[A]Pad_1600x1600_um 15 15240 -33020)
+      (pin Oval[A]Pad_1600x1600_um 16 15240 -30480)
+      (pin Oval[A]Pad_1600x1600_um 17 15240 -27940)
+      (pin Oval[A]Pad_1600x1600_um 18 15240 -25400)
+      (pin Oval[A]Pad_1600x1600_um 19 15240 -22860)
+      (pin Oval[A]Pad_1600x1600_um 20 15240 -20320)
+      (pin Oval[A]Pad_1600x1600_um 21 15240 -17780)
+      (pin Oval[A]Pad_1600x1600_um 22 15240 -15240)
+      (pin Oval[A]Pad_1600x1600_um 23 15240 -12700)
+      (pin Oval[A]Pad_1600x1600_um 24 15240 -10160)
+      (pin Oval[A]Pad_1600x1600_um 25 15240 -7620)
+      (pin Oval[A]Pad_1600x1600_um 26 15240 -5080)
+      (pin Oval[A]Pad_1600x1600_um 27 15240 -2540)
+      (pin Oval[A]Pad_1600x1600_um 28 15240 0)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1950x590_41.457_um_0.000000_0
+      (shape (polygon F.Cu 0  -975.157 253.7  -972.001 269.565  -963.015 283.015  -949.565 292.001
+            -933.699 295.156  933.7 295.157  949.565 292.001  963.015 283.015
+            972.001 269.565  975.156 253.699  975.157 -253.7  972.001 -269.565
+            963.015 -283.015  949.565 -292.001  933.699 -295.156  -933.7 -295.157
+            -949.565 -292.001  -963.015 -283.015  -972.001 -269.565  -975.156 -253.699
+            -975.157 253.7))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net /A14
+      (pins RAM_BOARD_CONN1-29 RAM_BANK3-1 RAM_BANK2-1 RAM_BANK1-1 RAM_BANK0-1)
+    )
+    (net /A12
+      (pins RAM_BOARD_CONN1-25 RAM_BANK3-2 RAM_BANK2-2 RAM_BANK1-2 RAM_BANK0-2)
+    )
+    (net /A7
+      (pins RAM_BOARD_CONN1-15 RAM_BANK3-3 RAM_BANK2-3 RAM_BANK1-3 RAM_BANK0-3)
+    )
+    (net /A6
+      (pins RAM_BOARD_CONN1-13 RAM_BANK3-4 RAM_BANK2-4 RAM_BANK1-4 RAM_BANK0-4)
+    )
+    (net /A5
+      (pins RAM_BOARD_CONN1-11 RAM_BANK3-5 RAM_BANK2-5 RAM_BANK1-5 RAM_BANK0-5)
+    )
+    (net /A4
+      (pins RAM_BOARD_CONN1-9 RAM_BANK3-6 RAM_BANK2-6 RAM_BANK1-6 RAM_BANK0-6)
+    )
+    (net /A3
+      (pins RAM_BOARD_CONN1-7 RAM_BANK3-7 RAM_BANK2-7 RAM_BANK1-7 RAM_BANK0-7)
+    )
+    (net /A2
+      (pins RAM_BOARD_CONN1-5 RAM_BANK3-8 RAM_BANK2-8 RAM_BANK1-8 RAM_BANK0-8)
+    )
+    (net /A1
+      (pins RAM_BOARD_CONN1-3 RAM_BANK3-9 RAM_BANK2-9 RAM_BANK1-9 RAM_BANK0-9)
+    )
+    (net /A0
+      (pins RAM_BOARD_CONN1-1 RAM_BANK3-10 RAM_BANK2-10 RAM_BANK1-10 RAM_BANK0-10)
+    )
+    (net /DQ0
+      (pins RAM_BOARD_CONN1-2 RAM_BANK3-11 RAM_BANK2-11 RAM_BANK1-11 RAM_BANK0-11)
+    )
+    (net /DQ1
+      (pins RAM_BOARD_CONN1-4 RAM_BANK3-12 RAM_BANK2-12 RAM_BANK1-12 RAM_BANK0-12)
+    )
+    (net /DQ2
+      (pins RAM_BOARD_CONN1-6 RAM_BANK3-13 RAM_BANK2-13 RAM_BANK1-13 RAM_BANK0-13)
+    )
+    (net /GND
+      (pins RAM_BOARD_CONN1-31 RAM_LOGIC1-1 RAM_LOGIC1-8 RAM_LOGIC1-15 RAM_BANK3-14
+        RAM_BANK2-14 RAM_BANK1-14 RAM_BANK0-14)
+    )
+    (net /DQ3
+      (pins RAM_BOARD_CONN1-8 RAM_BANK3-15 RAM_BANK2-15 RAM_BANK1-15 RAM_BANK0-15)
+    )
+    (net /DQ4
+      (pins RAM_BOARD_CONN1-10 RAM_BANK3-16 RAM_BANK2-16 RAM_BANK1-16 RAM_BANK0-16)
+    )
+    (net /DQ5
+      (pins RAM_BOARD_CONN1-12 RAM_BANK3-17 RAM_BANK2-17 RAM_BANK1-17 RAM_BANK0-17)
+    )
+    (net /DQ6
+      (pins RAM_BOARD_CONN1-14 RAM_BANK3-18 RAM_BANK2-18 RAM_BANK1-18 RAM_BANK0-18)
+    )
+    (net /DQ7
+      (pins RAM_BOARD_CONN1-16 RAM_BANK3-19 RAM_BANK2-19 RAM_BANK1-19 RAM_BANK0-19)
+    )
+    (net /B0
+      (pins RAM_BOARD_CONN1-20 RAM_BANK3-20 RAM_BANK2-20 RAM_BANK0-20)
+    )
+    (net /A10
+      (pins RAM_BOARD_CONN1-21 RAM_BANK3-21 RAM_BANK2-21 RAM_BANK1-21 RAM_BANK0-21)
+    )
+    (net /OE0
+      (pins RAM_LOGIC1-5 RAM_BANK0-22)
+    )
+    (net /A11
+      (pins RAM_BOARD_CONN1-23 RAM_BANK3-23 RAM_BANK2-23 RAM_BANK1-23 RAM_BANK0-23)
+    )
+    (net /A9
+      (pins RAM_BOARD_CONN1-19 RAM_BANK3-24 RAM_BANK2-24 RAM_BANK1-24 RAM_BANK0-24)
+    )
+    (net /A8
+      (pins RAM_BOARD_CONN1-17 RAM_BANK3-25 RAM_BANK2-25 RAM_BANK1-25 RAM_BANK0-25)
+    )
+    (net /A13
+      (pins RAM_BOARD_CONN1-27 RAM_BANK3-26 RAM_BANK2-26 RAM_BANK1-26 RAM_BANK0-26)
+    )
+    (net /WE0
+      (pins RAM_LOGIC1-4 RAM_BANK0-27)
+    )
+    (net /VCC
+      (pins RAM_BOARD_CONN1-32 RAM_LOGIC1-16 RAM_BANK3-28 RAM_BANK2-28 RAM_BANK1-28
+        RAM_BANK0-28)
+    )
+    (net /B1
+      (pins RAM_BOARD_CONN1-18 RAM_BANK1-20)
+    )
+    (net /OE1
+      (pins RAM_LOGIC1-7 RAM_BANK1-22)
+    )
+    (net /WE1
+      (pins RAM_LOGIC1-6 RAM_BANK1-27)
+    )
+    (net /OE2
+      (pins RAM_LOGIC1-11 RAM_BANK2-22)
+    )
+    (net /WE2
+      (pins RAM_LOGIC1-12 RAM_BANK2-27)
+    )
+    (net /OE3
+      (pins RAM_LOGIC1-9 RAM_BANK3-22)
+    )
+    (net /WE3
+      (pins RAM_LOGIC1-10 RAM_BANK3-27)
+    )
+    (net /RW0
+      (pins RAM_BOARD_CONN1-22 RAM_LOGIC1-2)
+    )
+    (net /CARDSEL0
+      (pins RAM_BOARD_CONN1-26 RAM_LOGIC1-3)
+    )
+    (net /CARDSEL1
+      (pins RAM_BOARD_CONN1-28 RAM_LOGIC1-13)
+    )
+    (net /RW1
+      (pins RAM_BOARD_CONN1-24 RAM_LOGIC1-14)
+    )
+    (net /RES
+      (pins RAM_BOARD_CONN1-30)
+    )
+    (class kicad_default
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
